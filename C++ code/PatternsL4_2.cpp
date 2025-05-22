@@ -31,18 +31,50 @@ while(i<n){
 */
 
 
-// To print the pattern:
 
-while(i<n){
-    j=0;
-    while(j<=i)
-    {
-        cout<<i+1<<" ";
-        j++;
+
+/*
+To print the pattern:
+1
+22
+333
+4444
+    while(i<n){
+        j=0;
+        while(j<=i)
+        {
+            cout<<i+1<<" ";
+            j++;
+        }
+        cout<<endl;
+        i++;
     }
-    cout<<endl;
-    i++;
-}
+*/
+
+
+
+/*
+to print the pattern:
+
+
+*/
+int count =1;
+    while(i<n){
+
+        j=0;
+        while(j<=i){
+            cout<<count<<" ";
+            count++;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+
+
+
+
+
 
 
 
