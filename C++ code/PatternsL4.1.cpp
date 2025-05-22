@@ -31,6 +31,7 @@ cout<<endl;
 //3 2 1
 //3 2 1
 //3 2 1
+/*
     while(i<=n){
         j=1;
         while(j<=n){
@@ -40,4 +41,25 @@ cout<<endl;
         cout<<endl;
         i++;
     }
+cout<<endl;
+*/
+
+
+
+
+
+//print the pattern :
+int num =1;
+    while(i<=n){
+        j=1;
+        while(j<=n){
+            cout<<num<<" ";
+            num++;
+            j++;
+        }
+        cout<<endl;
+        i++;
+    }
+
+
 }
