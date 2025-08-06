@@ -1,3 +1,4 @@
+// in this we used made code for the Triangle pattern
 #include<iostream>
 using namespace std;
 int main(){
