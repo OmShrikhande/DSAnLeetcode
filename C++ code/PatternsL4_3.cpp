@@ -75,4 +75,29 @@ while(r<=n){
 
 */
 
+
+
+//A B C D 
+// B C D E
+// C D E F
+// D E F G
+/*
+
+int i =1;
+
+while(i<=n){
+    char ch = 'A';
+    int col =1;
+    while(col<=n){
+        ch = 'A' + i + col - 2;
+        col = col + 1;
+        cout << ch << " ";
+    }
+
+    cout << endl;
+    i= i+1;
+}
+*/
+
+
 }
